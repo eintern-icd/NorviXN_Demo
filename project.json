@@ -1,12 +1,16 @@
 {
-  "userId": "u_4886111579d6765a",
-  "projectId": "test-project",
-  "name": "test-project-se",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "schemaVersion": 2,
+  "name": "123",
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {},
+    "sketchPath": "sketch"
   },
-  "selections": null,
   "serial": null,
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-16T11:27:45.744Z",
   "updatedAt": "2026-10-16T11:27:45.744Z"
 }
