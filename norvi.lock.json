@@ -4,6 +4,15 @@
   "libraries": {
     "manager": [],
     "managerResolved": [],
-    "git": []
+    "git": [
+      {
+        "name": "LovyanGFX",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
+        "contentSha256": "328ec2a11256b0682da91740797da5eb90880c6c7b278dc495959ce76da9f52e",
+        "subpath": "libraries/LovyanGFX-1.2.25",
+        "scope": "shared"
+      }
+    ]
   }
 }
