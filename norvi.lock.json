@@ -2,8 +2,32 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
+    "manager": [
+      {
+        "name": "DHTlib",
+        "version": "0.1.38",
+        "scope": "shared"
+      },
+      {
+        "name": "DHT sensor library",
+        "version": "1.4.7",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "Adafruit Unified Sensor",
+        "version": "1.1.15"
+      },
+      {
+        "name": "DHT sensor library",
+        "version": "1.4.7"
+      },
+      {
+        "name": "DHTlib",
+        "version": "0.1.38"
+      }
+    ],
     "git": [
       {
         "name": "LovyanGFX",
@@ -11,6 +35,14 @@
         "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
         "contentSha256": "328ec2a11256b0682da91740797da5eb90880c6c7b278dc495959ce76da9f52e",
         "subpath": "libraries/LovyanGFX-1.2.25",
+        "scope": "shared"
+      },
+      {
+        "name": "PCA9536D",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
+        "contentSha256": "672b7f17b207be1b6584c6cc2397cc70c158df0d2aae5e0952a263deede5daac",
+        "subpath": "libraries/Arduino_PCA9536-main",
         "scope": "shared"
       }
     ]
