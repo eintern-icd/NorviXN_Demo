@@ -30,19 +30,27 @@
     ],
     "git": [
       {
-        "name": "LovyanGFX",
-        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
-        "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
-        "contentSha256": "328ec2a11256b0682da91740797da5eb90880c6c7b278dc495959ce76da9f52e",
-        "subpath": "libraries/LovyanGFX-1.2.25",
-        "scope": "shared"
-      },
-      {
         "name": "PCA9536D",
         "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
         "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
         "contentSha256": "672b7f17b207be1b6584c6cc2397cc70c158df0d2aae5e0952a263deede5daac",
         "subpath": "libraries/Arduino_PCA9536-main",
+        "scope": "shared"
+      },
+      {
+        "name": "LovyanGFX",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "fcca11937923eed8d966617ba9f17960c21a82e6",
+        "contentSha256": "328ec2a11256b0682da91740797da5eb90880c6c7b278dc495959ce76da9f52e",
+        "subpath": "libraries/LovyanGFX-1.2.25",
+        "scope": "shared"
+      },
+      {
+        "name": "CST816S",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "14aa01c8755e8cd39f12f77edbc0a91edfd13708",
+        "contentSha256": "03df3677094f6e990030ae8eee34a8ecd45e731b82aa4e646685506b6a9510e4",
+        "subpath": "libraries/CST816S-main",
         "scope": "shared"
       }
     ]
